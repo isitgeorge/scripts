@@ -19,5 +19,4 @@ iptables -A INPUT -j DROP
 
 echo "Installing iptables-persistent..."
 apt-get install iptables-persistent
-service iptables-persistent status
 echo "Done!"
